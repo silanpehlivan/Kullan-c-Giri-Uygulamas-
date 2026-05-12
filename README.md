@@ -139,13 +139,9 @@ Bu proje sayesinde:
 
 ---
 
-# 📜 Lisans
+## 📜 Lisans
 
-Bu proje **MIT License** ile lisanslanmıştır.
-
-Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
-
----
+Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
 ## 👩‍💻 Geliştirici
 
