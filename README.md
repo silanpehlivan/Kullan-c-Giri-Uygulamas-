@@ -1,43 +1,152 @@
-🔐 Kullanıcı Giriş ve Yetkilendirme Uygulaması
+# 🔐 Kullanıcı Giriş ve Yetkilendirme Uygulaması
 
-Bu proje, modern masaüstü uygulamalarında temel teşkil eden güvenli kullanıcı girişi, kimlik doğrulama ve yetkilendirme süreçlerini simüle etmek amacıyla C# dili ve WinForms teknolojisi kullanılarak geliştirilmiştir. Proje, kodun sürdürülebilirliği için Nesne Yönelimli Programlama (OOP) prensiplerine uygun bir mimari ile tasarlanmıştır.
+Bu proje, kullanıcı giriş işlemlerini, kimlik doğrulama süreçlerini ve form yönetimini simüle etmek amacıyla **C#** ve **Windows Forms (WinForms)** teknolojileri kullanılarak geliştirilmiş bir masaüstü uygulamasıdır.
 
-🛠️ Teknik Detaylar
+Proje, temel kullanıcı doğrulama mantığını ve Nesne Yönelimli Programlama (OOP) yapısını öğretmeyi amaçlamaktadır.
 
-Geliştirme Ortamı: Visual Studio 2022
+---
 
-Dil: C#
+# 📝 Proje Hakkında
 
-Arayüz: Windows Forms (WinForms)
+Uygulama, kullanıcı adı ve şifre bilgilerini kontrol ederek kullanıcı doğrulaması yapmaktadır. Sistem, başarılı giriş işlemlerinden sonra kullanıcıyı farklı formlara yönlendirir ve temel yetkilendirme mantığını simüle eder.
 
-Mimari: Katmanlı Mantık (Sınıf tabanlı yapı)
+Projede:
 
-✨ Öne Çıkan Özellikler
+- Çoklu form yönetimi
+- Kullanıcı doğrulama işlemleri
+- Sınıf tabanlı yapı
+- Formlar arası veri aktarımı
+- Dinamik hata mesajları
 
-Güvenli Giriş Paneli: Kullanıcı adı ve parola doğrulaması yapan dinamik form arayüzü.
+gibi temel masaüstü uygulama geliştirme teknikleri kullanılmıştır.
 
-Sınıf (Class) Mimarisi: Görselde görülen Sınıflar klasörü altında toplanan mantıksal yapılar sayesinde, arayüz ve iş mantığı (business logic) birbirinden ayrılmıştır.
+---
 
-Çoklu Form Yönetimi: Form1, Form2 ve Form3 yapıları ile giriş sonrası farklı yetki seviyelerine veya sayfalara yönlendirme mekanizması.
+# ⚙️ Teknik Detaylar
 
-Hata Yönetimi: Hatalı giriş denemelerinde kullanıcıyı bilgilendiren dinamik uyarı sistemleri.
+| Özellik | Açıklama |
+|---|---|
+| Dil | C# |
+| Platform | .NET Framework |
+| Arayüz Teknolojisi | Windows Forms (WinForms) |
+| IDE | Visual Studio 2022 |
+| Mimari | Nesne Yönelimli Programlama (OOP) |
 
-📁 Proje Klasör Yapısı ve Dosyalar
+---
 
-Sınıflar/: Kullanıcı nesnelerini ve giriş mantığını yöneten merkezi sınıflar.
+# 🚀 Kullanılan Teknolojiler
 
-KullanıcıGirişUygulaması.csproj/sln: Projenin ana yapılandırma ve çözüm dosyaları.
+- C#
+- WinForms
+- OOP (Object Oriented Programming)
+- Class Yapıları
+- Form Yönetimi
+- Event Driven Programming
 
-Program.cs: Uygulamanın giriş noktası ve yaşam döngüsü yönetimi.
+---
 
-Form1-2-3.cs: Kullanıcı etkileşimli ekranlar ve tasarım dosyaları.
+# 📋 Temel Özellikler
 
-🎯 Projenin Amacı ve Kazanımlar
+## ✅ Kullanıcı Giriş Sistemi
+- Kullanıcı adı doğrulama
+- Şifre kontrol sistemi
+- Hatalı giriş uyarıları
 
-Bu çalışma, akademik düzeyde yazılım geliştirme süreçlerini kavramak adına şu yetkinlikleri pekiştirmeyi hedefler:
+## ✅ Çoklu Form Yönetimi
+- Formlar arası geçiş
+- Veri taşıma işlemleri
+- Dinamik ekran yönetimi
 
-Kapsülleme (Encapsulation): Kullanıcı verilerinin sınıflar aracılığıyla güvenli yönetimi.
+## ✅ Sınıf Tabanlı Yapı
+- Kullanıcı kontrol mekanizması
+- İş mantığının sınıflarda yönetilmesi
+- Kod organizasyonu
 
-Formlar Arası Veri Aktarımı: Bir formdan alınan verinin diğer formlarda işlenmesi.
+## ✅ Hata Yönetimi
+- Yanlış giriş uyarıları
+- Kullanıcı bilgilendirme mesajları
+- Güvenli kontrol mekanizması
 
-UI/UX Temelleri: Kullanıcı dostu ve işlevsel bir masaüstü arayüz tasarımı.
+---
+
+# 🛠️ Kurulum ve Çalıştırma
+
+## 1️⃣ Projeyi İndirin
+
+```bash
+git clone <repo-link>
+```
+
+veya ZIP olarak indirip çıkarın.
+
+---
+
+## 2️⃣ Visual Studio ile Açın
+
+`.sln` uzantılı çözüm dosyasını Visual Studio üzerinden açın.
+
+---
+
+## 3️⃣ Projeyi Çalıştırın
+
+Visual Studio içerisinde:
+
+```bash
+F5
+```
+
+tuşuna basarak projeyi çalıştırabilirsiniz.
+
+---
+
+# 📂 Proje Yapısı
+
+```bash
+KullaniciGirisUygulamasi/
+│
+├── Form1.cs
+├── Form2.cs
+├── Form3.cs
+├── Program.cs
+├── Sınıflar/
+│   └── Calısanlar.cs
+├── KullaniciGirisUygulamasi.csproj
+├── KullaniciGirisUygulamasi.sln
+└── README.md
+```
+
+| Dosya | Açıklama |
+|---|---|
+| `Form1.cs` | Kullanıcı giriş ekranı |
+| `Form2.cs` | Kullanıcı doğrulama ekranı |
+| `Form3.cs` | Başarılı giriş sonrası ekran |
+| `Program.cs` | Uygulama başlangıç noktası |
+| `Calısanlar.cs` | Kullanıcı kontrol işlemleri |
+| `.csproj` | Proje yapılandırma dosyası |
+| `.sln` | Visual Studio çözüm dosyası |
+
+---
+
+# 🎯 Projenin Amacı
+
+Bu proje sayesinde:
+
+- WinForms uygulama geliştirme mantığı öğrenilir.
+- Formlar arası veri aktarımı uygulanır.
+- Kullanıcı giriş sistemleri geliştirilir.
+- OOP prensipleri pratiğe dökülür.
+- Masaüstü uygulama geliştirme deneyimi kazanılır.
+
+---
+
+# 📜 Lisans
+
+Bu proje **MIT License** ile lisanslanmıştır.
+
+Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+
+---
+
+## 👩‍💻 Author
+
+Şilan Pehlivan
