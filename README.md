@@ -147,6 +147,6 @@ Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Geliştirici
 
 Şilan Pehlivan
