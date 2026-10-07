@@ -2,17 +2,32 @@
 
 # Kullanıcı Giriş Uygulaması
 
-**Kimlik doğrulama akışına giriş**
+### Masaüstü giriş akışını adım adım keşfet.
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
-![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0891b2?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0891b2?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Kullanıcı doğrulaması, hata bildirimleri ve formlar arası geçişi simüle eden eğitim amaçlı masaüstü uygulaması.
+
+**Kimlik doğrulama akışına giriş**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/Kullan-c-Giri-Uygulamas-/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · Kullanıcı bilgileriyle giriş etkileşimi
+- **02** · Formlar arasında geçiş
+- **03** · Sınıf tabanlı kontrol akışı
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -24,23 +39,22 @@ Kullanıcı doğrulaması, hata bildirimleri ve formlar arası geçişi simüle 
 
 C# · Windows Forms
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 Formdan alınan değerler çalışan sınıfındaki kontrol akışına aktarılır; formlar arası geçişle masaüstü etkileşimi gösterilir.
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [Form1.cs](Form1.cs)
 - [Program.cs](Program.cs)
 - [Form2.cs](Form2.cs)
 - [Form3.cs](Form3.cs)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Eğitim simülasyonudur. Parola yönetimi, oturum güvenliği ve yetkilendirme için üretim düzeyinde doğrulama sunulduğu varsayılmamalıdır.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 Bu proje, kullanıcı giriş işlemlerini, kimlik doğrulama süreçlerini ve form yönetimini simüle etmek amacıyla **C#** ve **Windows Forms (WinForms)** teknolojileri kullanılarak geliştirilmiş bir masaüstü uygulamasıdır.
 
@@ -180,6 +194,8 @@ Bu proje sayesinde:
 - Masaüstü uygulama geliştirme deneyimi kazanılır.
 
 ---
+
+
 
 
 </details>
