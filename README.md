@@ -24,6 +24,21 @@ Kullanıcı doğrulaması, hata bildirimleri ve formlar arası geçişi simüle 
 
 C# · Windows Forms
 
+## Teknik yaklaşım
+
+Formdan alınan değerler çalışan sınıfındaki kontrol akışına aktarılır; formlar arası geçişle masaüstü etkileşimi gösterilir.
+
+## Kodu incelemeye başlayın
+
+- [Form1.cs](Form1.cs)
+- [Program.cs](Program.cs)
+- [Form2.cs](Form2.cs)
+- [Form3.cs](Form3.cs)
+
+## Kapsam ve sınırlar
+
+Eğitim simülasyonudur. Parola yönetimi, oturum güvenliği ve yetkilendirme için üretim düzeyinde doğrulama sunulduğu varsayılmamalıdır.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
