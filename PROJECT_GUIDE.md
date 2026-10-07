@@ -166,8 +166,8 @@ KullaniciGirisUygulamasi/
 ├── Program.cs
 ├── Sınıflar/
 │   └── Calısanlar.cs
-├── KullaniciGirisUygulamasi.csproj
-├── KullaniciGirisUygulamasi.sln
+├── KullanıcıGirişUygulaması.csproj
+├── KullanıcıGirişUygulaması.sln
 └── README.md
 ```
 
