@@ -1,4 +1,31 @@
-# 🔐 Kullanıcı Giriş ve Yetkilendirme Uygulaması
+<div align="center">
+
+# Kullanıcı Giriş Uygulaması
+
+**Kimlik doğrulama akışına giriş**
+
+![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0891b2?style=flat-square)
+[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+
+Kullanıcı doğrulaması, hata bildirimleri ve formlar arası geçişi simüle eden eğitim amaçlı masaüstü uygulaması.
+
+</div>
+
+---
+
+## Öne Çıkanlar
+
+- Kullanıcı adı ve parola kontrolü
+- Başarılı giriş sonrası form yönlendirmesi
+- Sınıf tabanlı iş mantığı ve veri aktarımı
+
+## Teknolojiler
+
+C# · Windows Forms
+
+<details>
+<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
 Bu proje, kullanıcı giriş işlemlerini, kimlik doğrulama süreçlerini ve form yönetimini simüle etmek amacıyla **C#** ve **Windows Forms (WinForms)** teknolojileri kullanılarak geliştirilmiş bir masaüstü uygulamasıdır.
 
@@ -6,7 +33,7 @@ Proje, temel kullanıcı doğrulama mantığını ve Nesne Yönelimli Programlam
 
 ---
 
-# 📝 Proje Hakkında
+## Proje Hakkında
 
 Uygulama, kullanıcı adı ve şifre bilgilerini kontrol ederek kullanıcı doğrulaması yapmaktadır. Sistem, başarılı giriş işlemlerinden sonra kullanıcıyı farklı formlara yönlendirir ve temel yetkilendirme mantığını simüle eder.
 
@@ -22,7 +49,7 @@ gibi temel masaüstü uygulama geliştirme teknikleri kullanılmıştır.
 
 ---
 
-# ⚙️ Teknik Detaylar
+## Teknik Detaylar
 
 | Özellik | Açıklama |
 |---|---|
@@ -34,7 +61,7 @@ gibi temel masaüstü uygulama geliştirme teknikleri kullanılmıştır.
 
 ---
 
-# 🚀 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - C#
 - WinForms
@@ -45,49 +72,49 @@ gibi temel masaüstü uygulama geliştirme teknikleri kullanılmıştır.
 
 ---
 
-# 📋 Temel Özellikler
+## Temel Özellikler
 
-## ✅ Kullanıcı Giriş Sistemi
+## Kullanıcı Giriş Sistemi
 - Kullanıcı adı doğrulama
 - Şifre kontrol sistemi
 - Hatalı giriş uyarıları
 
-## ✅ Çoklu Form Yönetimi
+## Çoklu Form Yönetimi
 - Formlar arası geçiş
 - Veri taşıma işlemleri
 - Dinamik ekran yönetimi
 
-## ✅ Sınıf Tabanlı Yapı
+## Sınıf Tabanlı Yapı
 - Kullanıcı kontrol mekanizması
 - İş mantığının sınıflarda yönetilmesi
 - Kod organizasyonu
 
-## ✅ Hata Yönetimi
+## Hata Yönetimi
 - Yanlış giriş uyarıları
 - Kullanıcı bilgilendirme mesajları
 - Güvenli kontrol mekanizması
 
 ---
 
-# 🛠️ Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
-## 1️⃣ Projeyi İndirin
+## 1. Projeyi İndirin
 
 ```bash
-git clone <repo-link>
+git clone https://github.com/silanpehlivan/Kullan-c-Giri-Uygulamas-.git
 ```
 
 veya ZIP olarak indirip çıkarın.
 
 ---
 
-## 2️⃣ Visual Studio ile Açın
+## 2. Visual Studio ile Açın
 
 `.sln` uzantılı çözüm dosyasını Visual Studio üzerinden açın.
 
 ---
 
-## 3️⃣ Projeyi Çalıştırın
+## 3. Projeyi Çalıştırın
 
 Visual Studio içerisinde:
 
@@ -99,7 +126,7 @@ tuşuna basarak projeyi çalıştırabilirsiniz.
 
 ---
 
-# 📂 Proje Yapısı
+## Proje Yapısı
 
 ```bash
 KullaniciGirisUygulamasi/
@@ -127,7 +154,7 @@ KullaniciGirisUygulamasi/
 
 ---
 
-# 🎯 Projenin Amacı
+## Projenin Amacı
 
 Bu proje sayesinde:
 
@@ -139,10 +166,15 @@ Bu proje sayesinde:
 
 ---
 
-## 📜 Lisans
 
-Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+</details>
 
-## 👩‍💻 Geliştirici
+---
 
-Şilan PEHLİVAN
+<div align="center">
+
+**© 2024 Şilan PEHLİVAN**
+
+Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
+
+</div>
